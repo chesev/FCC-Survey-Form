@@ -13,11 +13,11 @@
 
     <form id="survey-form">
         <fieldset>
-            <label id="name-label">Name <input id="name" type="text" placeholder="Enter your name" required> </label>
-            <label id="email-label">Email <input id="email" type="email" placeholder="Enter your email" required> </label>
-            <label id="number-label">Age <input id="number" name="age" type="number" min="13" max="120" placeholder="Age" required></label>
+            <label id="name-label">Name </label> <input class="form-control" id="name" type="text" placeholder="    Enter your name" required>
+            <label id="email-label">Email </label> <input class="form-control" id="email" type="email" placeholder="    Enter your email" required> 
+            <label id="number-label">Age </label> <input class="form-control" id="number" name="age" type="number" min="13" max="120" placeholder="    Age" required>
             <label>Which option best describes your current role?
-                <select name="dropdown">
+                <select class="form-control" name="dropdown">
                     <option value="">Select current role</option>
                     <option value="1">Student</option>
                     <option value="2">Full Time Job</option>
@@ -83,9 +83,9 @@
         </fieldset>
 
         <fieldset>
-            <label>Any comments or suggestions? 
-                <textarea name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
+            <label>Any comments or suggestions?
             </label>
+            <textarea name="comment" rows="3" cols="30" placeholder="Enter your comment here..."></textarea>
         </fieldset>
 
         <input id="submit" type="submit" value="Submit">
